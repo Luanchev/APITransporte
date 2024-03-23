@@ -22,7 +22,6 @@ namespace APITranporteDefinitivo.Controllers.CamionController
             serviceCamion = _serviceCamion; 
         }
 
-
         [HttpGet] // estos son los metodos HTTP
         [Route("camion")]
         public async Task<IActionResult> GetAllCamiones()
