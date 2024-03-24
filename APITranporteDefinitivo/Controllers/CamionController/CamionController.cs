@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Npgsql;
 using System;
 using Transporte.Core.Entities;
@@ -9,6 +10,7 @@ namespace APITranporteDefinitivo.Controllers.CamionController
     //esta es la capa que expone los servicios
 
     [Route("api")] //las rutas se definen con minuscula
+    [Authorize] //con esto lo que hacemos es restringir los datos de camion
     [ApiController]
     public class CamionController : ControllerBase
     {

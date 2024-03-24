@@ -10,7 +10,7 @@ using Transporte.Core.Interfaces.ICamion;
 
 namespace APITranporteDefinitivo.Controllers.UsuarioController
 {
-    [Route("validar")]
+    [Route("api")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {

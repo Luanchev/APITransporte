@@ -52,7 +52,7 @@ namespace Transporte.Infrastructure.Repositories.UserRepositories
                     await conn.OpenAsync(); //una espera para abrir la conexion de la base de datos siempre se debe escribir
 
                     string sentence = "Select usuario, password FROM usuario " +
-                                      $"where usuario = '{correo}';"; //lo que hacemos aqui es la sentencia que selecciona el registro de un camion por placa
+                                      $"where usuario = '{correo}';"; //lo que hacemos aqui es la sentencia que selecciona el usuario y la contraseña
 
                     var cmd = new NpgsqlCommand(sentence, conn);
                     cmd.CommandType = CommandType.Text;
