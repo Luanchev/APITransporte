@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITranporteDefinitivo", "APITranporteDefinitivo\APITranporteDefinitivo.csproj", "{5D55181F-21C4-4B3B-9CF1-F2C4192C2BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITranporteDefinitivo", "APITranporteDefinitivo\APITranporteDefinitivo.csproj", "{5D55181F-21C4-4B3B-9CF1-F2C4192C2BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transporte.Core", "Transporte.Core\Transporte.Core.csproj", "{9ECD4470-5F82-47A2-8797-DEE9DAD38E5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transporte.Core", "Transporte.Core\Transporte.Core.csproj", "{9ECD4470-5F82-47A2-8797-DEE9DAD38E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transporte.Infrastructure", "Transporte.Infrastructure\Transporte.Infrastructure.csproj", "{7C72D7E1-9DE5-4816-B01D-A36363D7D78E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transporte.Infrastructure", "Transporte.Infrastructure\Transporte.Infrastructure.csproj", "{7C72D7E1-9DE5-4816-B01D-A36363D7D78E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
